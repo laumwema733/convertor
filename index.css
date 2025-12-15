@@ -93,7 +93,7 @@ input[type="number"]::-webkit-outer-spin-button {
   /* line-height: 2; */
 }
 .row p {
-  font-size: clamp(1.2rem, 2vw + 1rem, 1.4rem);
+  font-size: clamp(1.4rem, 2vw + 1rem, 1.4rem);
   word-wrap: break-word;
 }
 
