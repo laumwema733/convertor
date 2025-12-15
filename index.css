@@ -100,3 +100,9 @@ input[type="number"]::-webkit-outer-spin-button {
 .hidden {
   display: none;
 }
+
+@media (max-width: 520px) {
+  .card {
+    margin-block: 0;
+  }
+}
