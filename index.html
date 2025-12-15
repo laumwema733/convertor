@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
+    <title>Unit Convertor</title>
+  </head>
+  <body>
+    <article class="card">
+      <div class="card--header">
+        <h1 class="title">Metric/Imperial Unit Conversion</h1>
+        <form>
+          <input type="number" id="number" autofocus />
+          <button class="btn btn-convert">convert</button>
+        </form>
+      </div>
+      <div class="card--body">
+        <div class="row">
+          <h2 class="row-title">Length (Meter/Feet)</h2>
+          <p class="result">
+            <span class="initValue">20 </span>meters =
+            <span class="feet-res">65.616</span> feet |
+            <span class="initValue">20 </span>feet =<span class="meter-res">
+              6.096</span
+            >
+            meters
+          </p>
+          <p></p>
+        </div>
+
+        <div class="row">
+          <h2 class="row-title">Volume (Liters/Gallons)</h2>
+          <p class="result">
+            <span class="initValue">20 </span>liters =
+            <span class="gallon-res">5.284</span> gallons |
+            <span class="initValue">20 </span>gallons =
+            <span class="liter-res">75.708</span> liters
+          </p>
+        </div>
+        <div class="row">
+          <h2 class="row-title">Mass (Kilograms/Pounds)</h2>
+          <p class="result">
+            <span class="initValue">20 </span>kilos =
+            <span class="pound-res">44.092 </span> pounds |
+            <span class="initValue">20 </span>pounds =
+            <span class="kilo-res">9.072</span> kilos
+          </p>
+        </div>
+      </div>
+    </article>
+    <script src="index.js"></script>
+  </body>
+</html>
